@@ -9,4 +9,4 @@ function updatePlaylist(playlist, artistName, SongTitle) {
 
 function removeFromPlaylist(playlist, artistName) {
   delete("Slowdive")
-}
+};
