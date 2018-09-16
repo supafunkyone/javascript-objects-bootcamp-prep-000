@@ -13,16 +13,14 @@ function removeFromPlaylist(playlist, artist) {
 
 */
 
- const playlist = {
-  Slowdive: "Alison",
-  MyBloodyValentine: "Sometimes"
+ var playlist = {
+  ledZeppelin: 'Stairway to Heaven'
+};
+ function updatePlaylist(playlist, artist, song) {
+  playlist[artist] = song;
+  return playlist;
 }
-   
-// 2 objects updatePlaylist(playlist, artistName, songTitle) adds the `artistName: songTitle` key-value pair to `playlist`:
- const updatePlaylist = function updatePlaylist(playlist, artistName, songTitle)  {
-  playlist[artistName] = songTitle
-   return playlist
-}
- function removeFromPlaylist(playlist, artist) {
- return  delete playlist[artist]
-}
+ function removeFromPlaylist(playlist, artistName) {
+  delete playlist[artistName];
+  return playlist;
+} 
