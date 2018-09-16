@@ -8,5 +8,5 @@ function updatePlaylist(playlist, artistName, SongTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  playlist["myBloodyValentine"]
+  playlist["My Bloody Valentine"]
 }
